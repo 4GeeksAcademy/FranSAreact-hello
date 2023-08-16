@@ -1,0 +1,16 @@
+ul li:hover {
+    background-color: ghostwhite;
+}
+
+li .fa-trash-alt:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+li.done {
+    background-color: lightgreen !important;
+}
+
+li.done #text {
+    text-decoration: line-through;
+}
